@@ -1,0 +1,10 @@
+name: sscce-xarray-plot-dup-colorbar
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python ~=3.11
+  - xarray ~=2022.11
+  - pooch ~=1.6
+  - cartopy ~=0.21.0
+  - flask ~=2.2
