@@ -17,3 +17,5 @@ Start service:
 ```bash
 PYTHONPATH=. python sscce_xarray_plot_dup_colorbar/__init__.py
 ```
+
+Visit in browser (assuming running on `localhost`) at `localhost:5000`
