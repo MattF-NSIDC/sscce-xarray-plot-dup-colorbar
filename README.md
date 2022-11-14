@@ -1,4 +1,9 @@
-# Running
+# SSCCE of xarray plot with duplicate colorbars
+
+![xarray duplicate colorbars](./example.png)
+
+
+## Running
 
 Create env:
 
