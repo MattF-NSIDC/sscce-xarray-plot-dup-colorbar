@@ -12,6 +12,7 @@ def index():
     fig = make_plot()
 
     # Convert figure to bytes for embedding
+    #     https://matplotlib.org/stable/gallery/user_interfaces/web_application_server_sgskip.html
     buf = BytesIO()
     fig.savefig(buf, format='png')
     img_data = base64.b64encode(buf.getbuffer()).decode('ascii')
