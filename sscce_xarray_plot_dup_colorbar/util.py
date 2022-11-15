@@ -3,13 +3,6 @@ import matplotlib
 import xarray as xra
 from matplotlib.figure import Figure
 
-# The app crashes on second load if the following setting is not applied.
-#     https://matplotlib.org/stable/users/explain/backends.html
-# Error:
-#     UserWarning: Starting a Matplotlib GUI outside of the main thread will likely
-#     fail.
-matplotlib.use('Agg')
-
 
 def make_plot():
     """Plot air temp in a way that reproduces duplicate colorbar issue.
